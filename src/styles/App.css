@@ -17,19 +17,20 @@ h1 {
 }
 
 .about-card {
-  margin-top: auto;
-  margin-bottom: auto;
-  max-height: 600px;
   display: flex;
   justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 700px;
 }
 
 .title {
   font-size: 2rem;
 }
 
+
 .about-Img {
-  height: 500px;
+  height: 600px;
   display: flex;
   justify-content: center;
   opacity: 0.1;

@@ -14,9 +14,9 @@ import AboutImg from "../assets/about.jpg";
 export default function About() {
   return (
     <Card id="about" className="about-card flex flex-col gap-4 m-2">
-      <CardBody className="absolute z-10 m-auto p-5 mt-5">
-        <h1 className="title p-5 m-auto">Sobre mi</h1>
-        <h4 className="font-bold m-auto p-5 mt-5">
+      <CardBody className="absolute z-10 m-auto p-5 mt-5 flex flex-col gap-4">
+        <h1 className="title m-auto mb-5">Sobre mi</h1>
+        <h4 className="font-bold m-auto mt-5">
           Soy un apasionado Desarrollador Full Stack dedicado a construir
           soluciones digitales innovadoras y eficientes. Con experiencia en el
           diseño, desarrollo y despliegue de aplicaciones web completas, destaco
