@@ -29,8 +29,11 @@ export default function App() {
                     className="sm:hidden"
                 />
                 <NavbarBrand>
-                    {theme === "dark" ? <img src={NF3Logo} alt="NF3" className="h-12 w-auto" /> : <img src={NF3LogoDark} alt="NF3" className="h-12 w-auto" />}
-                    <p className="text-2xl font-bold text-primary">Magnement</p>
+                <Link  href="/">
+                {theme === "dark" ? <img src={NF3Logo} alt="NF3" className="h-12 w-auto" /> : <img src={NF3LogoDark} alt="NF3" className="h-12 w-auto" />}
+                <p className="text-2xl font-bold text-primary">Magnement</p>
+                    </Link>
+                    
                 </NavbarBrand>
             </NavbarContent>
 
