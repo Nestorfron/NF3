@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Home-top {
+  max-height: 700px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.about-card {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.about-Img {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.1;
+}
+
+.fa-brands {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: rgb(143, 143, 143);
+}
+
+.card-skills {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.skills {
+  font-size: 3rem !important;
+}
