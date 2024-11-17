@@ -26,14 +26,14 @@ export default function About() {
           profesionalmente y aportar valor con cada línea de código.
         </h4>
         <div className="m-auto p-5">
-          <Link className="m-auto p-5 mt-5">
-            <i class="fa-brands fa-facebook"></i>
+          <Link color="foreground" className="m-auto p-5 mt-5">
+            <i className="fa-brands fa-facebook"></i>
           </Link>
-          <Link className="m-auto p-5 mt-5">
-            <i class="fa-brands fa-instagram"></i>
+          <Link color="foreground" className="m-auto p-5 mt-5">
+            <i className="fa-brands fa-instagram"></i>
           </Link>
-          <Link className="m-auto p-5 mt-5">
-            <i class="fa-brands fa-github"></i>
+          <Link color="foreground" className="m-auto p-5 mt-5">
+            <i className="fa-brands fa-github"></i>
           </Link>
         </div>
       </CardBody>

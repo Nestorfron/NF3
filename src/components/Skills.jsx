@@ -74,7 +74,7 @@ export default function Skills() {
         </Card>
         <Card className="card-skills">
           <CardBody>
-            <i class="skills fa-solid fa-database text-center" color="foreground"></i>
+            <i className="skills fa-solid fa-database text-center" color="foreground"></i>
           </CardBody>
           <CardFooter className="justify-around">
             <h1 className="text-center text-bold">MySQL</h1>

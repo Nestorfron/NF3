@@ -3,8 +3,14 @@
   padding: 0;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 .Home-top {
-  max-height: 700px;
+  max-height: 600px;
   display: flex;
   justify-content: center;
   
@@ -34,8 +40,10 @@
   cursor: pointer;
 }
 
+
 .icon:hover {
-  color: rgb(143, 143, 143);
+  color: rgb(255, 255, 255)!important;
+  transition: 0.5s;
 }
 
 .card-skills {
@@ -44,5 +52,26 @@
 }
 
 .skills {
-  font-size: 3rem !important;
+  font-size: 3.5rem !important;
+}
+
+.projects-card {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card-projects {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.project-title {
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+
+.project-icon {
+  cursor: pointer;
 }
