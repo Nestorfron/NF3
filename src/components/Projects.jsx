@@ -15,7 +15,7 @@ export default function Projects() {
   return (
     <Card id="projects" className="projects-card flex flex-col gap-4 m-2 mt-5 pt-5">
       <h1 className="title p-5 text-center text-bold mt-5">Proyectos</h1>
-      <div className="m-2 p-3 pb-5 gap-2 grid grid-cols-1 sm:grid-cols-3">
+      <div className="m-2 p-3 pb-5 gap-2 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4">
         <Card className="card-projects bg-light" shadow="sm">
           <CardBody className="overflow-visible p-0">
             <Image
