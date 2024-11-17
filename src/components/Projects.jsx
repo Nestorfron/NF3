@@ -8,6 +8,7 @@ import img5 from "../assets/5.jpg";
 import img6 from "../assets/6.jpg";
 import img7 from "../assets/7.jpg";
 import img8 from "../assets/8.jpg";
+import img9 from "../assets/9.jpg";
 
 export default function Projects() {
   return (
@@ -17,6 +18,28 @@ export default function Projects() {
     >
       <h1 className="title p-5 text-center text-bold mt-5">Proyectos</h1>
       <div className="m-2 p-3 pb-5 gap-2 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4">
+      <Card className="card-projects bg-light" shadow="sm">
+          <CardBody className="overflow-visible p-0">
+            <Image
+              radius="lg"
+              width="100%"
+              alt="Shop"
+              className="w-full object-cover h-[180px]"
+              src={img9}
+            />
+          </CardBody>
+          <CardFooter className="text-small justify-between">
+            <h1 className="project-title">Starwars Blog</h1>
+            <div>
+              <Link color="foreground" href="https://github.com/Nestorfron/starwars">
+                <i className="project-icon fa-solid fa-code mr-2"></i>
+              </Link>
+              <Link color="foreground" href="https://starwars-omega-bay.vercel.app/">
+                <i class="project-icon fa-solid fa-arrow-up-right-from-square mr-2"></i>
+              </Link>
+            </div>
+          </CardFooter>
+        </Card>
         <Card className="card-projects bg-light" shadow="sm">
           <CardBody className="overflow-visible p-0">
             <Image
@@ -78,28 +101,6 @@ export default function Projects() {
                 <i className="project-icon fa-solid fa-code mr-2"></i>
               </Link>
               <Link color="foreground" href="https://flexbox-gu3mppo1z-nestorfron.vercel.app/">
-                <i class="project-icon fa-solid fa-arrow-up-right-from-square mr-2"></i>
-              </Link>
-            </div>
-          </CardFooter>
-        </Card>
-        <Card className="card-projects bg-light" shadow="sm">
-          <CardBody className="overflow-visible p-0">
-            <Image
-              radius="lg"
-              width="100%"
-              alt="Shop"
-              className="w-full object-cover h-[180px]"
-              src={img4}
-            />
-          </CardBody>
-          <CardFooter className="text-small justify-between">
-            <h1 className="project-title">Formulario</h1>
-            <div>
-              <Link color="foreground" href="https://github.com/Nestorfron/formulario">
-                <i className="project-icon fa-solid fa-code mr-2"></i>
-              </Link>
-              <Link color="foreground" href="https://formulario-2qzr5p53u-nestorfron.vercel.app/">
                 <i class="project-icon fa-solid fa-arrow-up-right-from-square mr-2"></i>
               </Link>
             </div>
