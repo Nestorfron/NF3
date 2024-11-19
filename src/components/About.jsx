@@ -60,6 +60,11 @@ export default function About() {
           src={AboutImg}
         />
       </div>
+      <div id="div-totop" className="cmn-divfloat">
+        <a href="#" className="cmn-btncircle">
+          <i className="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
     </Card>
   );
 }

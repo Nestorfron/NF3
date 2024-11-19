@@ -80,3 +80,29 @@ h1 {
 .project-icon {
   cursor: pointer;
 }
+
+.cmn-divfloat {
+  position: fixed !important;
+  z-index: 1;
+  bottom: 45px;
+  right: 2%;
+}
+
+.cmn-btncircle {
+  width: 80px !important;
+  height: 50px !important;
+  padding: 5px 10px 5px 10px !important;
+  border-radius: 50%;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  box-shadow: 0 0 5px #ffffff !important;
+  background-color: #2001aa21;
+}
+
+.cmn-btncircle:hover {
+  box-shadow: 0 0 10px #ffffff !important;
+  color: rgb(3, 0, 192);
+  background-color: #3336f84d;
+  border-color: blue;
+}

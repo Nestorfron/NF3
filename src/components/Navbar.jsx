@@ -36,7 +36,7 @@ export default function App() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <Link href="/">
+          <Link href="/#">
             {theme === "dark" ? (
               <img src={NF3Logo} alt="NF3" className="h-12 w-auto" />
             ) : (
@@ -49,7 +49,7 @@ export default function App() {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="primary" className="font-bold" href="/">
+          <Link color="primary" className="font-bold" href="/#">
             Inicio
           </Link>
         </NavbarItem>
